@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'git is a software where you develop skills in coding'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,8 @@
 */
 
 //CODE HERE
+const gitDefinitions = "git is a webiste where you upload your software developing skills"
+
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,6 +37,9 @@
 */
 
 //CODE HERE
+const init = {
+    description: "creates a git repository in directory",
+    code: "git init",
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,7 +48,11 @@
 */
 
 //CODE HERE
-
+const clone = {
+    description: "copies repository",
+    code: "git clone <URL>",
+}
+    
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+const status = {
+    description: "prints status of repository",
+    code: "git status",
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: "stages files"
+    code: "git add .",
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +84,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: "saves snapshots"
+    code: "git commit -m", \"<message>\"",
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +96,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: "sends repo changes",
+    code: "git push",
+}
